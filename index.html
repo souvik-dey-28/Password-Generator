@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="5">
+    <meta name="description" content="password Generator">
+    <meta name="keywords" content="HTML, CSS, JavaScript , password , Generator, password Generator ">
+    <meta name="author" content="Souvik Dey">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="png"
+    href="logo/logo.png">
+    <title>Password Generator</title>
+</head>
+<body id="top">
+    <main>
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h1 class="text-white text-center">Create Your Password</h1>
+                        <h6 class="text-center">Set your password characters</h6>
+                        <div class="col-lg-12 col-12 mb-lg-0">
+                            <div class="text-center">
+                                <input type="text" class="form-control text-center" id="txtPassword" value="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%&*()-_=+[]{}<>?" />
+                            </div>
+                            <br><br>
+                        </div>
+                        <h6 class="text-center">Select password length</h6>
+                        <form class="custom-form mt-7 pt-2 mb-lg-4 mb-5">
+                            <div class="container d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn btn-light" id="btn8">8</button>
+                                <button type="button" class="btn btn-light" id="btn12">12</button>
+                                <button type="button" class="btn btn-light" id="btn16">16</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Password Screen-->
+        <section class="featured-section">
+            <div class="container">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <h6 class="text-center mb-4 mb-lg-7">Password generated according to your choice</h6>
+                        <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                                <div class="d-flex justify-content-center">
+                                    <input id="sonuc" class="text-center" data-toggle="tooltip" data-placement="top" title="Copied to clipboard!" />
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--Password Screen-->
+    </main>
+
+    <section>
+        <footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-8 col-6 mb-4 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Contact</h6>
+                        <p class="text-white d-flex text">
+                            <a href="mailto:deysouvik123456@gmail.com" class="site-footer-link">
+                                deysouvik123456@gmail.com
+                            </a>
+                        </p>
+                        <p class="text-white d-flex">
+                            <br>
+                            <a href="https://github.com/souvik-dey-28" class="site-footer-link">
+                                github
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
